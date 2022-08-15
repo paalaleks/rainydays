@@ -32,6 +32,16 @@ body {
   overflow-x: hidden;
 }
 
+// Forms & buttons
+
+input,
+textarea {
+  font-family: "Source Sans Pro";
+  border: none;
+  line-height: 1.5rem;
+  padding: 4px;
+}
+
 button {
   font-size: 18px;
   padding: 0.5rem 1rem;
@@ -45,6 +55,13 @@ button {
   background: none;
   &:hover {
     color: lighten(#2d3319, 10%);
+  }
+}
+.wide-button {
+  background: #2d3319;
+  color: #f2e9df;
+  &:hover {
+    background: lighten(#2d3319, 10%);
   }
 }
 
@@ -62,7 +79,7 @@ h1 {
   font-size: 2.5rem;
 }
 h2 {
-  font-size: 25px;
+  font-size: 19px;
 }
 h3 {
   font-size: 18px;
@@ -82,7 +99,7 @@ p {
   padding: 0 1rem;
 }
 .page-padding {
-  padding-bottom: 2rem;
+  padding: 4rem 1rem;
 }
 .nav-padding {
   background-color: #e9dfd5;
