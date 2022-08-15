@@ -1,0 +1,247 @@
+@font-face {
+  font-family: "bakso_sapiregular";
+  src: url("./fonts/BaksoSapi.otf");
+  src: url("./fonts/baksosapi.woff") format("woff"),
+    url("./fonts/baksosapi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: unset;
+  text-decoration: unset;
+  &:hover {
+    color: lighten(#2d3319, 10%);
+  }
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: #f2e9df;
+  color: #2d3319;
+  font-family: "Source Sans Pro", sans-serif, Verdana;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+button {
+  font-size: 18px;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  font-family: "bakso_sapiregular";
+  cursor: pointer;
+}
+.text-only-button {
+  color: #2d3319;
+  background: none;
+  &:hover {
+    color: lighten(#2d3319, 10%);
+  }
+}
+
+// Typography
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "bakso_sapiregular";
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 25px;
+}
+h3 {
+  font-size: 18px;
+}
+p {
+  font-size: 18px;
+  @media only screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+// page center & padding
+
+.page-padding,
+.footer-padding,
+.nav-padding {
+  padding: 0 1rem;
+}
+.page-padding {
+  padding-bottom: 2rem;
+}
+.nav-padding {
+  background-color: #e9dfd5;
+}
+
+.page-center,
+.footer-center,
+.nav-center {
+  max-width: 992px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+// Nav
+
+nav {
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  height: 10rem;
+
+  @media only screen and (max-width: 700px) {
+    flex-direction: column;
+    height: 15rem;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  .who-are-you {
+    margin-top: auto;
+    margin-right: 1rem;
+    h1 {
+      white-space: nowrap;
+      padding-bottom: 2px;
+      @media only screen and (max-width: 768px) {
+        font-size: 2rem;
+      }
+      @media only screen and (max-width: 700px) {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  .nav-links {
+    width: 100%;
+    margin-bottom: auto;
+
+    a {
+      padding: 0.5rem 0.5rem 0.75rem 0.5rem;
+      margin-bottom: auto;
+      z-index: 2;
+    }
+
+    display: flex;
+    div {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .nav-links-2 {
+    margin-right: 6px;
+    margin-left: auto;
+    white-space: nowrap;
+    display: flex;
+    .fas {
+      font-size: 18px;
+    }
+  }
+
+  .nav-image-container {
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    margin-left: auto;
+
+    @media only screen and (max-width: 700px) {
+      flex-direction: column;
+      margin-top: 3rem;
+      align-items: center;
+    }
+    .nav-image {
+      display: flex;
+      z-index: 2;
+      h3 {
+        padding-bottom: 0.75rem;
+      }
+    }
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 10rem;
+    }
+    a:first-of-type {
+      margin-right: 1rem;
+    }
+  }
+}
+.selector {
+  color: lighten(#2d3319, 10%);
+  background-image: url("./images/selector_6.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 33px;
+}
+
+// Footer
+
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: relative;
+
+  div {
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  a {
+    padding: 0.5rem;
+    margin: 0.25rem;
+    font-size: 18px;
+    &:hover {
+      color: #e9dfd5;
+    }
+  }
+  a:first-of-type {
+    margin-left: unset;
+    padding-left: unset;
+  }
+  a:last-of-type {
+    margin-right: unset;
+    padding-right: unset;
+  }
+  h3 {
+    text-align: center;
+    span {
+      font-family: "Source Sans Pro";
+    }
+  }
+}
+
+.footer-bg {
+  height: 500px;
+  background-image: url("./images/woodfooter.png");
+}
+.footer-text {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #788846;
+}
