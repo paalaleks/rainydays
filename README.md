@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Rainy Days sports jacket shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://res.cloudinary.com/paalaleks/image/upload/v1671184568/medium_Screenshot_2022_08_15_at_21_19_33_6e53cf8a23.png)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This is my portfolio with a few projects uploaded. I've set it up with a few advanced features that will make it easeier for the visitor to see undertsand my knowledge level as a developer. I also uploaded some of my artwork here.
 
-### `npm start`
+- React.js is used to make the website fast with clientside rendering:)
+  – SASS is used throughout this project in order to make the CSS developer experience better and web browser compatability better.
+  – Starpi is used as CMS to som I can have a CMS for the portfolio and all the other demo projects. The back-end is uploaded to Heroku and is running as a posgreSQL database.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [React.js](https://reactjs.org/)
+- [SASS](https://sass-lang.com/)
+- [Strapi](https://strapi.io/)
+- [Vercel](https://vercel.com/)
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installing
 
-### `npm run build`
+Clone the repo with the following commands:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repo:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/paalaleks/rainydays.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install the dependencies:
 
-### `npm run eject`
+```
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Running
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+After you cloned and installed the dependencies you can run the app locally on port http://localhost:3000
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run the app, run the following commands:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm run start
+```
 
-## Learn More
+## Check out the deployed webpage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[https://rainydays-omega.vercel.app/](https://rainydays-omega.vercel.app/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contact
 
-### Code Splitting
+This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[Email me for requests you might have](mailto:paalaleks@hotmail.com)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Or find me on LinkedIn](www.linkedin.com/in/fullstakk)
